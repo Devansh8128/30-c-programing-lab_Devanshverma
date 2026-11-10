@@ -1,13 +1,13 @@
-#include <stdio.h>
+#include <stdio.h>                                                          // palindrome number or not
 
 int main(){
     int n,r,rev=0,temp;
     printf("enter a number: ");
     scanf("%d",&n);
     temp=n;
-    while(n>0){
-        r=n%10;
-        rev= rev*10+r;
+    while(n>0){                                                             // Name- Devansh Verma
+        r=n%10;                                                             // MCA 1st year
+        rev= rev*10+r;                                                      // section-'A'
         n=n/10;
     }
     if(temp==rev){
