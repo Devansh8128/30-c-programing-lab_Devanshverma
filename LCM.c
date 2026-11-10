@@ -2,9 +2,9 @@
 
 int main(){
     int a,b,lcm;
-    printf("enter two positive numbers: ");                                  //Name- Devansh Verma
-    scanf("%d %d", &a, &b);                                                  //
-
+    printf("enter two positive numbers: ");                                  // Name- Devansh Verma
+    scanf("%d %d", &a, &b);                                                  // MCA 1st year
+                                                                             // section- 'A'
     if(a<=0 || b<=0){
         printf("enter positive number");
     }
