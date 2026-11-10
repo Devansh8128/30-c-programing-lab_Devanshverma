@@ -2,8 +2,8 @@
 
 int main() {
     int n;
-    printf("enter number: ");
-    scanf("%d", &n);
+    printf("enter number: ");                                   // Name- Devansh Verma
+    scanf("%d", &n);                                            
 
     for(int i=1; i<=n; i++){
         printf("%d\n", i*n);
