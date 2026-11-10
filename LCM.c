@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include <stdio.h>                                                           // Least common multiple
 
 int main(){
     int a,b,lcm;
-    printf("enter two positive numbers: ");
-    scanf("%d %d", &a, &b);
+    printf("enter two positive numbers: ");                                  //Name- Devansh Verma
+    scanf("%d %d", &a, &b);                                                  //
 
     if(a<=0 || b<=0){
         printf("enter positive number");
