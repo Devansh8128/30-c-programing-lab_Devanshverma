@@ -1,12 +1,12 @@
-#include <stdio.h>
+#include <stdio.h>                                                        // fibonacci series
 
 int main(){
     int n,i,a=0,b=1,c;
     printf("enter number of terms:");
     scanf("%d", &n);
-
-    printf("fibonacci series");
-    for(i=1;i<=n;i++){
+                                                                         // Name- Devansh Verma
+    printf("fibonacci series");                                          // MCA 1st year 
+    for(i=1;i<=n;i++){                                                   // section- 'A'
         printf("%d", a);
         c=a+b;
         a=b;
